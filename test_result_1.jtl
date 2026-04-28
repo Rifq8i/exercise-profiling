@@ -19,3 +19,43 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1777369725581,13,HTTP Request,200,,Thread Group 1-8,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,13,0,1
 1777369725682,15,HTTP Request,200,,Thread Group 1-9,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,15,0,1
 1777369725781,9,HTTP Request,200,,Thread Group 1-10,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,9,0,1
+1777371892543,38,HTTP Request,200,,Thread Group 1-3,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,32,0,10
+1777371892505,76,HTTP Request,200,,Thread Group 1-2,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,70,0,48
+1777371892505,76,HTTP Request,200,,Thread Group 1-1,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,70,0,48
+1777371892643,9,HTTP Request,200,,Thread Group 1-4,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,9,0,2
+1777371892741,6,HTTP Request,200,,Thread Group 1-5,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,1
+1777371892841,6,HTTP Request,200,,Thread Group 1-6,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,1
+1777371892942,6,HTTP Request,200,,Thread Group 1-7,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,1
+1777371893039,8,HTTP Request,200,,Thread Group 1-8,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,8,0,1
+1777371893154,9,HTTP Request,200,,Thread Group 1-9,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,9,0,2
+1777371893248,8,HTTP Request,200,,Thread Group 1-10,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,8,0,1
+1777372289193,39,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-2,text,false,,2631,0,3,3,http://localhost:8080/highest-gpa,0,0,39
+1777372289192,39,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-1,text,false,,2631,0,3,3,http://localhost:8080/highest-gpa,0,0,39
+1777372289221,11,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-3,text,false,,2631,0,3,3,http://localhost:8080/highest-gpa,0,0,11
+1777372289334,1,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-4,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,1
+1777372289421,4,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-5,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,4
+1777372289520,2,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-6,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,2
+1777372289619,3,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-7,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,2
+1777372289716,1,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-8,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,1
+1777372289818,2,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-9,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,2
+1777372289915,2,HTTP Request,Non HTTP response code: org.apache.http.conn.HttpHostConnectException,"Non HTTP response message: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect",Thread Group 1-10,text,false,,2631,0,1,1,http://localhost:8080/highest-gpa,0,0,2
+1777372365569,59,HTTP Request,200,,Thread Group 1-1,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,53,0,39
+1777372365612,17,HTTP Request,200,,Thread Group 1-3,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,11,0,1
+1777372365570,59,HTTP Request,200,,Thread Group 1-2,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,53,0,39
+1777372365712,25,HTTP Request,200,,Thread Group 1-4,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,25,0,2
+1777372365809,6,HTTP Request,200,,Thread Group 1-5,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,1
+1777372365908,5,HTTP Request,200,,Thread Group 1-6,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,5,0,1
+1777372366008,6,HTTP Request,200,,Thread Group 1-7,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,1
+1777372366107,8,HTTP Request,200,,Thread Group 1-8,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,8,0,1
+1777372366207,7,HTTP Request,200,,Thread Group 1-9,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,7,0,3
+1777372366305,6,HTTP Request,200,,Thread Group 1-10,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,1
+1777373197399,9,HTTP Request,200,,Thread Group 1-3,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,5,0,1
+1777373197363,45,HTTP Request,200,,Thread Group 1-2,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,40,0,23
+1777373197363,45,HTTP Request,200,,Thread Group 1-1,text,true,,281,128,3,3,http://localhost:8080/highest-gpa,40,0,23
+1777373197500,9,HTTP Request,200,,Thread Group 1-4,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,9,0,2
+1777373197601,11,HTTP Request,200,,Thread Group 1-5,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,11,0,3
+1777373197698,6,HTTP Request,200,,Thread Group 1-6,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,6,0,2
+1777373197799,7,HTTP Request,200,,Thread Group 1-7,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,7,0,2
+1777373197896,5,HTTP Request,200,,Thread Group 1-8,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,5,0,1
+1777373197996,6,HTTP Request,200,,Thread Group 1-9,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,5,0,1
+1777373198095,9,HTTP Request,200,,Thread Group 1-10,text,true,,281,128,1,1,http://localhost:8080/highest-gpa,9,0,1
