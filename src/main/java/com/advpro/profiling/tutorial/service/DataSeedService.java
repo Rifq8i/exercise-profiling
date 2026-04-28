@@ -10,6 +10,7 @@ import com.github.javafaker.Faker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.Random;
@@ -28,7 +29,7 @@ public class DataSeedService {
     @Autowired
     private StudentCourseRepository studentCourseRepository;
 
-    private static final int NUMBER_OF_STUDENTS = 20_000;
+    private static final int NUMBER_OF_STUDENTS = 200;
     private static final int NUMBER_OF_COURSE = 10;
 
     public void seedStudent() {
@@ -60,20 +61,22 @@ public class DataSeedService {
     public void seedStudentCourses() {
         List<Student> students = studentRepository.findAll();
         List<Course> courses = courseRepository.findAll();
+        List<StudentCourse> studentCourses = new ArrayList<>();
+        Random random = new Random();
 
         for (Student student : students) {
-            List<Course> selectedCourses = new Random().ints(0, courses.size())
+            List<Course> selectedCourses = random.ints(0, courses.size())
                     .distinct()
                     .limit(2)
                     .mapToObj(courses::get)
                     .collect(Collectors.toList());
 
             for (Course course : selectedCourses) {
-                StudentCourse studentCourse = new StudentCourse(student, course);
-                studentCourseRepository.save(studentCourse);
+                studentCourses.add(new StudentCourse(student, course));
             }
         }
 
+        studentCourseRepository.saveAll(studentCourses);
     }
 
 }
